@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT Evidence</title>
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+
+        h1{
+            color: rgb(201, 60, 60);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello World</h1>
+    </div>
+    <script>
+        let title = document.querySelector('h1')
+        // e = event
+        setTimeout((e) => {
+            title.style = 'transform: translateX(150px)'
+        },1500)
+    </script>
+</body>
+</html>
